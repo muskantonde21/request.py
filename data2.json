@@ -1,0 +1,2562 @@
+[
+    {
+        "id": "7031",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "introduction",
+        "slug": "css_json__introduction_json",
+        "sequence_num": 0,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/introduction.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 2,
+                "value": "CSS Introduction"
+            },
+            {
+                "component": "text",
+                "value": "Hum HTML mein sirf content yaani ki jo kuch bhi likhna chahte hai wo likhte hai. Magar iss content ko sundar banane ke liye CSS yaani <b>Cascading Style Sheets</b> ka use karte hai."
+            },
+            {
+                "component": "text",
+                "value": "CSS aapke HTML ko style karna bhot aasaan kar deti hai. Jaise,"
+            },
+            {
+                "component": "text",
+                "value": "Maan lo aapko apne page mein chaar <b>a tags</b> ka color - green set karna hai. HTML mein aisa karne ke liye aapko her <b>a tag</b> mein jaa kar"
+            },
+            {
+                "component": "code",
+                "type": "other",
+                "title": "",
+                "value": "style=\"color:green;\""
+            },
+            {
+                "component": "text",
+                "value": "likhna hoga. Magar hum CSS ka use kar kar yeh kaam aur bhi asaani se kar sakte hai. Jaise,"
+            },
+            {
+                "component": "code",
+                "type": "other",
+                "title": "",
+                "value": "a {<br>    color:green; <br>}"
+            },
+            {
+                "component": "text",
+                "value": "Aur sabhi <b>a tags</b> ka color green set ho jayega."
+            },
+            {
+                "component": "text",
+                "value": "<i>Assignment karne se pehle, yeh concepts padho aur samjho:</i>"
+            },
+            {
+                "component": "text",
+                "value": "CSS (<a href=\"http://learn.shayhowe.com/html-css/building-your-first-web-page/#common-css-terms\">En</a>)",
+                "decoration": {
+                    "type": "bullet"
+                }
+            }
+        ]
+    },
+    {
+        "id": "7031",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "introduction",
+        "slug": "css_json__introduction_json",
+        "sequence_num": 0,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/introduction.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 2,
+                "value": "CSS Introduction"
+            },
+            {
+                "component": "text",
+                "value": "Hum HTML mein sirf content yaani ki jo kuch bhi likhna chahte hai wo likhte hai. Magar iss content ko sundar banane ke liye CSS yaani <b>Cascading Style Sheets</b> ka use karte hai."
+            },
+            {
+                "component": "text",
+                "value": "CSS aapke HTML ko style karna bhot aasaan kar deti hai. Jaise,"
+            },
+            {
+                "component": "text",
+                "value": "Maan lo aapko apne page mein chaar <b>a tags</b> ka color - green set karna hai. HTML mein aisa karne ke liye aapko her <b>a tag</b> mein jaa kar"
+            },
+            {
+                "component": "code",
+                "type": "other",
+                "title": "",
+                "value": "style=\"color:green;\""
+            },
+            {
+                "component": "text",
+                "value": "likhna hoga. Magar hum CSS ka use kar kar yeh kaam aur bhi asaani se kar sakte hai. Jaise,"
+            },
+            {
+                "component": "code",
+                "type": "other",
+                "title": "",
+                "value": "a {<br>    color:green; <br>}"
+            },
+            {
+                "component": "text",
+                "value": "Aur sabhi <b>a tags</b> ka color green set ho jayega."
+            },
+            {
+                "component": "text",
+                "value": "<i>Assignment karne se pehle, yeh concepts padho aur samjho:</i>"
+            },
+            {
+                "component": "text",
+                "value": "CSS (<a href=\"http://learn.shayhowe.com/html-css/building-your-first-web-page/#common-css-terms\">En</a>)",
+                "decoration": {
+                    "type": "bullet"
+                }
+            }
+        ]
+    },
+    {
+        "id": "7026",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "using-css",
+        "slug": "css_json__using-css_json",
+        "sequence_num": 100,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/using-css.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 2,
+                "value": "Using CSS"
+            },
+            {
+                "component": "text",
+                "value": "Ek \"styles.css\" naam ki <span style=\"\">file</span> banao, jisme neeche diya hua <span style=\"\">code</span> likho. Ab aap iss <span style=\"\">file</span> ko uss folder mei <span style=\"\">save</span> karo jaha apki HTML course ki index.html <span style=\"\">files</span> stored hain."
+            },
+            {
+                "component": "code",
+                "type": "other",
+                "title": "",
+                "value": "body {<br>    background-color: lightblue;<br>}<br>h1 {<br>    color: white;<br>    text-align: center;<br>}<br>p {<br>    font-family: verdana;<br>    color: darkgray;<br>    font-size: 20px;<br>}"
+            },
+            {
+                "component": "text",
+                "value": "<i>Dhyaan rakhe, agar <span style=\"\">file</span> kisi aur folder mei hogi jaha index.html nahi hai toh aapka <span style=\"\">code</span> sahi se nahi chalega.</i>"
+            },
+            {
+                "component": "text",
+                "value": "Niche jo line di hain use index.html aur kindness.html ke \"head\" section mei add karo."
+            },
+            {
+                "component": "code",
+                "type": "other",
+                "title": "",
+                "value": "<link rel=\"stylesheet\" href=\"styles.css\">"
+            },
+            {
+                "component": "text",
+                "value": "Ab agar aap index.html ya kindness.html ko browser mei khologe toh aapko CSS ke vajah se kuch colors, aur baaki style jo humne uss CSS <span style=\"\">file</span> mei diye hai dikhenge."
+            },
+            {
+                "component": "text",
+                "value": "Yeh gaur karne wali baat hai ki, aapne same CSS <span style=\"\">file</span> se dono HTML mei style daal pa rahe ho. Aise hi aap kitni bhi <span style=\"\">files</span> ko, same CSS <span style=\"\">file</span> se style kar sakte ho."
+            },
+            {
+                "component": "text",
+                "value": "Apki website kuch <a href=\"https://abhishekgupta92.github.io/equality2/\">iss tarah</a> se dikhegi.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            }
+        ]
+    },
+    {
+        "id": "7026",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "using-css",
+        "slug": "css_json__using-css_json",
+        "sequence_num": 100,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/using-css.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 2,
+                "value": "Using CSS"
+            },
+            {
+                "component": "text",
+                "value": "Ek \"styles.css\" naam ki <span style=\"\">file</span> banao, jisme neeche diya hua <span style=\"\">code</span> likho. Ab aap iss <span style=\"\">file</span> ko uss folder mei <span style=\"\">save</span> karo jaha apki HTML course ki index.html <span style=\"\">files</span> stored hain."
+            },
+            {
+                "component": "code",
+                "type": "other",
+                "title": "",
+                "value": "body {<br>    background-color: lightblue;<br>}<br>h1 {<br>    color: white;<br>    text-align: center;<br>}<br>p {<br>    font-family: verdana;<br>    color: darkgray;<br>    font-size: 20px;<br>}"
+            },
+            {
+                "component": "text",
+                "value": "<i>Dhyaan rakhe, agar <span style=\"\">file</span> kisi aur folder mei hogi jaha index.html nahi hai toh aapka <span style=\"\">code</span> sahi se nahi chalega.</i>"
+            },
+            {
+                "component": "text",
+                "value": "Niche jo line di hain use index.html aur kindness.html ke \"head\" section mei add karo."
+            },
+            {
+                "component": "code",
+                "type": "other",
+                "title": "",
+                "value": "<link rel=\"stylesheet\" href=\"styles.css\">"
+            },
+            {
+                "component": "text",
+                "value": "Ab agar aap index.html ya kindness.html ko browser mei khologe toh aapko CSS ke vajah se kuch colors, aur baaki style jo humne uss CSS <span style=\"\">file</span> mei diye hai dikhenge."
+            },
+            {
+                "component": "text",
+                "value": "Yeh gaur karne wali baat hai ki, aapne same CSS <span style=\"\">file</span> se dono HTML mei style daal pa rahe ho. Aise hi aap kitni bhi <span style=\"\">files</span> ko, same CSS <span style=\"\">file</span> se style kar sakte ho."
+            },
+            {
+                "component": "text",
+                "value": "Apki website kuch <a href=\"https://abhishekgupta92.github.io/equality2/\">iss tarah</a> se dikhegi.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            }
+        ]
+    },
+    {
+        "id": "7033",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "css-selectors",
+        "slug": "css_json__css-selectors_json",
+        "sequence_num": 200,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/css-selectors.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "CSS Selectors"
+            },
+            {
+                "component": "text",
+                "value": "CSS Selectors ke bare mei padne ke liye neeche diye links ka use kare:"
+            },
+            {
+                "component": "text",
+                "value": "<a href=\"http://www.w3schools.com/css/css_syntax.asp\">W3-school</a>",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "youtube",
+                "value": "WrImGwPqy9Y"
+            },
+            {
+                "component": "text",
+                "value": "Ab apni style.css ke contents (andar jo bhi likha) hai usse hata do. CSS ke rules iss tarah add karo ki aapka webpage kuch <a href=\"https://abhishekgupta92.github.io/equality3\">iss</a> tarah se dikhai dena chahiye."
+            },
+            {
+                "component": "text",
+                "value": "<i>Assignment karne ke liye yeh concepts padho aur samjho:</i>"
+            },
+            {
+                "component": "text",
+                "value": "Background Color ",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Text Align",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Text Decoration Property",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Width",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Padding",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Margin",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "List Style",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Text Color",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Center align using CSS",
+                "decoration": {
+                    "type": "bullet"
+                }
+            }
+        ]
+    },
+    {
+        "id": "7033",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "css-selectors",
+        "slug": "css_json__css-selectors_json",
+        "sequence_num": 200,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/css-selectors.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "CSS Selectors"
+            },
+            {
+                "component": "text",
+                "value": "CSS Selectors ke bare mei padne ke liye neeche diye links ka use kare:"
+            },
+            {
+                "component": "text",
+                "value": "<a href=\"http://www.w3schools.com/css/css_syntax.asp\">W3-school</a>",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "youtube",
+                "value": "WrImGwPqy9Y"
+            },
+            {
+                "component": "text",
+                "value": "Ab apni style.css ke contents (andar jo bhi likha) hai usse hata do. CSS ke rules iss tarah add karo ki aapka webpage kuch <a href=\"https://abhishekgupta92.github.io/equality3\">iss</a> tarah se dikhai dena chahiye."
+            },
+            {
+                "component": "text",
+                "value": "<i>Assignment karne ke liye yeh concepts padho aur samjho:</i>"
+            },
+            {
+                "component": "text",
+                "value": "Background Color ",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Text Align",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Text Decoration Property",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Width",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Padding",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Margin",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "List Style",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Text Color",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Center align using CSS",
+                "decoration": {
+                    "type": "bullet"
+                }
+            }
+        ]
+    },
+    {
+        "id": "7034",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "css-box-model",
+        "slug": "css_json__css-box-model_json",
+        "sequence_num": 300,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/css-box-model.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "CSS Box Model"
+            },
+            {
+                "component": "text",
+                "value": "CSS Box Model ke baarein mein padho. Isse padhne ke baad aapko ye samajh aana chahiye ki margin aur padding kaise kaam karte hai. Padding aur margin se khel kar dekho taaki aapka webpage kuch <a href=\"https://abhishekgupta92.github.io/equality4\">iss</a> tarah dikhe."
+            },
+            {
+                "component": "text",
+                "value": "Iss assignment ke liye, aapko yeh dhyaan rakhna hai ki koi bhi padding ya margin ki value 20px se jyada nahi ho. Agar usse jyada hogi toh aapki assignment accept nahi hogi."
+            },
+            {
+                "component": "text",
+                "value": "Padding aur margin mein kya difference hota hain soche. Aapko slack par apne facilitator ko yeh difference likh kar bhejna hai."
+            },
+            {
+                "component": "text",
+                "value": "<i>Assignment karne se pehle, yeh concepts padho aur samjho</i>"
+            },
+            {
+                "component": "text",
+                "value": "Box Model <a href=\"http://learn.shayhowe.com/html-css/opening-the-box-model/#what-is-the-box\">en</a>",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Padding",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Margin",
+                "decoration": {
+                    "type": "bullet"
+                }
+            }
+        ]
+    },
+    {
+        "id": "7034",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "css-box-model",
+        "slug": "css_json__css-box-model_json",
+        "sequence_num": 300,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/css-box-model.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "CSS Box Model"
+            },
+            {
+                "component": "text",
+                "value": "CSS Box Model ke baarein mein padho. Isse padhne ke baad aapko ye samajh aana chahiye ki margin aur padding kaise kaam karte hai. Padding aur margin se khel kar dekho taaki aapka webpage kuch <a href=\"https://abhishekgupta92.github.io/equality4\">iss</a> tarah dikhe."
+            },
+            {
+                "component": "text",
+                "value": "Iss assignment ke liye, aapko yeh dhyaan rakhna hai ki koi bhi padding ya margin ki value 20px se jyada nahi ho. Agar usse jyada hogi toh aapki assignment accept nahi hogi."
+            },
+            {
+                "component": "text",
+                "value": "Padding aur margin mein kya difference hota hain soche. Aapko slack par apne facilitator ko yeh difference likh kar bhejna hai."
+            },
+            {
+                "component": "text",
+                "value": "<i>Assignment karne se pehle, yeh concepts padho aur samjho</i>"
+            },
+            {
+                "component": "text",
+                "value": "Box Model <a href=\"http://learn.shayhowe.com/html-css/opening-the-box-model/#what-is-the-box\">en</a>",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Padding",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Margin",
+                "decoration": {
+                    "type": "bullet"
+                }
+            }
+        ]
+    },
+    {
+        "id": "7027",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "css-borders",
+        "slug": "css_json__css-borders_json",
+        "sequence_num": 400,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/css-borders.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "Border in CSS"
+            },
+            {
+                "component": "text",
+                "value": "CSS Borders ke baarein mein padhe. Isse padhne ke baad apko pata chalega ki border kaise kaam karta hain aur CSS box model mein border ka kya role hai."
+            },
+            {
+                "component": "text",
+                "value": "Aap apne heading aur paragraphs me border ko add kare. Aur <a href=\"https://abhishekgupta92.github.io/equality5\">iss</a> assignment ko kare."
+            },
+            {
+                "component": "text",
+                "value": "<i>Assignment karne se pehle, yeh concepts padho aur samjho:</i>"
+            },
+            {
+                "component": "text",
+                "value": "Border",
+                "decoration": {
+                    "type": "bullet"
+                }
+            }
+        ]
+    },
+    {
+        "id": "7027",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "css-borders",
+        "slug": "css_json__css-borders_json",
+        "sequence_num": 400,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/css-borders.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "Border in CSS"
+            },
+            {
+                "component": "text",
+                "value": "CSS Borders ke baarein mein padhe. Isse padhne ke baad apko pata chalega ki border kaise kaam karta hain aur CSS box model mein border ka kya role hai."
+            },
+            {
+                "component": "text",
+                "value": "Aap apne heading aur paragraphs me border ko add kare. Aur <a href=\"https://abhishekgupta92.github.io/equality5\">iss</a> assignment ko kare."
+            },
+            {
+                "component": "text",
+                "value": "<i>Assignment karne se pehle, yeh concepts padho aur samjho:</i>"
+            },
+            {
+                "component": "text",
+                "value": "Border",
+                "decoration": {
+                    "type": "bullet"
+                }
+            }
+        ]
+    },
+    {
+        "id": "7028",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "introduction-to-flex",
+        "slug": "css_json__introduction-to-flex_json",
+        "sequence_num": 500,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/introduction-to-flex.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "Introduction to flex"
+            },
+            {
+                "component": "text",
+                "value": "Page ka layout banane ke liye hum <b>display flex</b> ka use karte hai. Hum alag-alag tarah ke layout bana sakte hai. Jaise neeche di gayi images mein colored boxes flex items hai."
+            },
+            {
+                "component": "image",
+                "value": "https://merakilearn.s3.ap-south-1.amazonaws.com/course_images/css_json/images/flex-layout-1.png",
+                "alt": "introduction-to-flex_key3"
+            },
+            {
+                "component": "image",
+                "value": "https://merakilearn.s3.ap-south-1.amazonaws.com/course_images/css_json/images/flex-layout-2.png",
+                "alt": "introduction-to-flex_key4"
+            },
+            {
+                "component": "text",
+                "value": "Ab hum flex ko use karna seekhenge. Flex mein 2 cheezein bahut important hoti hai. Yeh naam baar baar aayenge, toh inhe acche se samajh le:"
+            },
+            {
+                "component": "text",
+                "value": "<b>Items</b>  Jin HTML tags ka humein layout banana hai unko hum items bolte hai. Items ko flex mei hum kuch properties de sakte hai jaise - <b>align-self, flex-grow, flex-basis,</b> etc.   ",
+                "decoration": {
+                    "type": "number",
+                    "value": 1
+                }
+            },
+            {
+                "component": "text",
+                "value": "<b>Container</b>  Items kisi container ke andar hote hai, aur ussi container ke hisaab se items ka layout banta hai.Agar container ki width 200px hai, toh items bhi usi 200px jagah mei arrange honge. Hum <b>display:flex</b> property ka use karke, batate hai ki kaunsa tag container hai. Container mei <b>justify-content, align-items,</b> <b>flex-wrap, flex-direction,</b> etc. jaisi properties hoti hai.",
+                "decoration": {
+                    "type": "number",
+                    "value": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "7028",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "introduction-to-flex",
+        "slug": "css_json__introduction-to-flex_json",
+        "sequence_num": 500,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/introduction-to-flex.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "Introduction to flex"
+            },
+            {
+                "component": "text",
+                "value": "Page ka layout banane ke liye hum <b>display flex</b> ka use karte hai. Hum alag-alag tarah ke layout bana sakte hai. Jaise neeche di gayi images mein colored boxes flex items hai."
+            },
+            {
+                "component": "image",
+                "value": "https://merakilearn.s3.ap-south-1.amazonaws.com/course_images/css_json/images/flex-layout-1.png",
+                "alt": "introduction-to-flex_key3"
+            },
+            {
+                "component": "image",
+                "value": "https://merakilearn.s3.ap-south-1.amazonaws.com/course_images/css_json/images/flex-layout-2.png",
+                "alt": "introduction-to-flex_key4"
+            },
+            {
+                "component": "text",
+                "value": "Ab hum flex ko use karna seekhenge. Flex mein 2 cheezein bahut important hoti hai. Yeh naam baar baar aayenge, toh inhe acche se samajh le:"
+            },
+            {
+                "component": "text",
+                "value": "<b>Items</b>  Jin HTML tags ka humein layout banana hai unko hum items bolte hai. Items ko flex mei hum kuch properties de sakte hai jaise - <b>align-self, flex-grow, flex-basis,</b> etc.   ",
+                "decoration": {
+                    "type": "number",
+                    "value": 1
+                }
+            },
+            {
+                "component": "text",
+                "value": "<b>Container</b>  Items kisi container ke andar hote hai, aur ussi container ke hisaab se items ka layout banta hai.Agar container ki width 200px hai, toh items bhi usi 200px jagah mei arrange honge. Hum <b>display:flex</b> property ka use karke, batate hai ki kaunsa tag container hai. Container mei <b>justify-content, align-items,</b> <b>flex-wrap, flex-direction,</b> etc. jaisi properties hoti hai.",
+                "decoration": {
+                    "type": "number",
+                    "value": 2
+                }
+            }
+        ]
+    },
+    {
+        "id": "7032",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "container-properties-display",
+        "slug": "css_json__container-properties-display_json",
+        "sequence_num": 600,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/container-properties-display.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "Display Flex: Container Property"
+            },
+            {
+                "component": "header",
+                "variant": 2,
+                "value": "<b>display: flex</b>"
+            },
+            {
+                "component": "text",
+                "value": "Yeh likhna jaruri hota hai. Agar hum yeh <b>property</b> container ki class mei nahi likhenge toh flex nahi chalega. Jiske vajah se koi aur bhi flex ki property kaam nahi karegi.Isse likhne se ek html <b>tag</b> flex container ki tarah behave karta hai.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Iss <a href=\"http://codepen.io/navgurukul/pen/ggJMrW\">example</a> mei container ki css mei display flex likh kar dekho ki kya hota hai.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            }
+        ]
+    },
+    {
+        "id": "7032",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "container-properties-display",
+        "slug": "css_json__container-properties-display_json",
+        "sequence_num": 600,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/container-properties-display.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "Display Flex: Container Property"
+            },
+            {
+                "component": "header",
+                "variant": 2,
+                "value": "<b>display: flex</b>"
+            },
+            {
+                "component": "text",
+                "value": "Yeh likhna jaruri hota hai. Agar hum yeh <b>property</b> container ki class mei nahi likhenge toh flex nahi chalega. Jiske vajah se koi aur bhi flex ki property kaam nahi karegi.Isse likhne se ek html <b>tag</b> flex container ki tarah behave karta hai.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Iss <a href=\"http://codepen.io/navgurukul/pen/ggJMrW\">example</a> mei container ki css mei display flex likh kar dekho ki kya hota hai.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            }
+        ]
+    },
+    {
+        "id": "7040",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "justify-content",
+        "slug": "css_json__justify-content_json",
+        "sequence_num": 700,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/justify-content.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "justify-content : Container property"
+            },
+            {
+                "component": "header",
+                "variant": 2,
+                "value": "flex-start | flex-end | center | space-between | space-around"
+            },
+            {
+                "component": "text",
+                "value": "Hum upar di gayi 5 values mei se justify-content ko koi bhi value de sakte hai.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Iski default yaani ki pehle se value flex-start hoti hai. Flex-start se flex items flex container ki <b>shuruaat</b> mein aa jate hai.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Iss <a href=\"http://codepen.io/navgurukul/pen/MJdegq?editors=1100#0\">example</a> ko dekho aur container ki css mein justify-content ki value change karke dekho ki kya hota hai.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            }
+        ]
+    },
+    {
+        "id": "7040",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "justify-content",
+        "slug": "css_json__justify-content_json",
+        "sequence_num": 700,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/justify-content.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "justify-content : Container property"
+            },
+            {
+                "component": "header",
+                "variant": 2,
+                "value": "flex-start | flex-end | center | space-between | space-around"
+            },
+            {
+                "component": "text",
+                "value": "Hum upar di gayi 5 values mei se justify-content ko koi bhi value de sakte hai.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Iski default yaani ki pehle se value flex-start hoti hai. Flex-start se flex items flex container ki <b>shuruaat</b> mein aa jate hai.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Iss <a href=\"http://codepen.io/navgurukul/pen/MJdegq?editors=1100#0\">example</a> ko dekho aur container ki css mein justify-content ki value change karke dekho ki kya hota hai.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            }
+        ]
+    },
+    {
+        "id": "7029",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "flex-direction",
+        "slug": "css_json__flex-direction_json",
+        "sequence_num": 800,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/flex-direction.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "flex-direction : Container Property"
+            },
+            {
+                "component": "header",
+                "variant": 2,
+                "value": "row | row-reverse | column | column-reverse"
+            },
+            {
+                "component": "text",
+                "value": "Aapne notice kiya hoga ki jab aap display flex lihte hai tab items ek row mei aa jaatei hai.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Aisa isliye hota hai kyunki jab hum <b>display: flex</b> likhte hai tab by default yaani pehle se hi <b>flex-direction row</b> set hoti hai.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "<b>flex-direction</b> se pata chalta hai ki flex items kis direction mei flex container mein aayegi. Jaise, <b>flex-direction: row-reverse</b> karne se items ulte order mein container mei aatein hai.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Iss <a href=\"http://codepen.io/navgurukul/pen/YNbNjV\">example</a> ko dekho aur container ki css mein flex-direction ki saari values daal kar dekho kya hota hai.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            }
+        ]
+    },
+    {
+        "id": "7029",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "flex-direction",
+        "slug": "css_json__flex-direction_json",
+        "sequence_num": 800,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/flex-direction.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "flex-direction : Container Property"
+            },
+            {
+                "component": "header",
+                "variant": 2,
+                "value": "row | row-reverse | column | column-reverse"
+            },
+            {
+                "component": "text",
+                "value": "Aapne notice kiya hoga ki jab aap display flex lihte hai tab items ek row mei aa jaatei hai.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Aisa isliye hota hai kyunki jab hum <b>display: flex</b> likhte hai tab by default yaani pehle se hi <b>flex-direction row</b> set hoti hai.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "<b>flex-direction</b> se pata chalta hai ki flex items kis direction mei flex container mein aayegi. Jaise, <b>flex-direction: row-reverse</b> karne se items ulte order mein container mei aatein hai.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Iss <a href=\"http://codepen.io/navgurukul/pen/YNbNjV\">example</a> ko dekho aur container ki css mein flex-direction ki saari values daal kar dekho kya hota hai.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            }
+        ]
+    },
+    {
+        "id": "7043",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "align-items",
+        "slug": "css_json__align-items_json",
+        "sequence_num": 900,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/align-items.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "align-items: Container Property"
+            },
+            {
+                "component": "header",
+                "variant": 2,
+                "value": "flex-start | flex-end | center | baseline | stretch"
+            },
+            {
+                "component": "text",
+                "value": "Iss property se hum yeh set karte hai ki flex-items container ke andar kaise height lengi.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "By default iski value <b>stretch</b> hoti hai yaani ki flex-items container mein <b>jitne height</b> unhe chahiye utni height leni ki koshish karte hai.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Iss <a href=\"http://codepen.io/navgurukul/pen/egavZJ\">example</a> ko dekho aur isme container ki css se <b>align-items:center</b> waali line se comment hata kar dekho ki kya hota hai. Aur align-items ki alag alag value daal kar bhi dekho.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            }
+        ]
+    },
+    {
+        "id": "7043",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "align-items",
+        "slug": "css_json__align-items_json",
+        "sequence_num": 900,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/align-items.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "align-items: Container Property"
+            },
+            {
+                "component": "header",
+                "variant": 2,
+                "value": "flex-start | flex-end | center | baseline | stretch"
+            },
+            {
+                "component": "text",
+                "value": "Iss property se hum yeh set karte hai ki flex-items container ke andar kaise height lengi.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "By default iski value <b>stretch</b> hoti hai yaani ki flex-items container mein <b>jitne height</b> unhe chahiye utni height leni ki koshish karte hai.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Iss <a href=\"http://codepen.io/navgurukul/pen/egavZJ\">example</a> ko dekho aur isme container ki css se <b>align-items:center</b> waali line se comment hata kar dekho ki kya hota hai. Aur align-items ki alag alag value daal kar bhi dekho.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            }
+        ]
+    },
+    {
+        "id": "7030",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "flex-wrap",
+        "slug": "css_json__flex-wrap_json",
+        "sequence_num": 1000,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/flex-wrap.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "flex-wrap: Container Property"
+            },
+            {
+                "component": "header",
+                "variant": 2,
+                "value": "nowrap | wrap | wrap-reverse"
+            },
+            {
+                "component": "text",
+                "value": "By default yaani pehle se flex items ek hi row mein fit honi ki koshish karti hai. Chahe ek row mein fit honi ki jagah na ho.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Aisa isliye hota hai kyunki by defautl <b>flex-wrap nowrap</b> hota hai. Nowrap yaani ki <b>\"ghoom kar agli line mein mat aao\".</b>",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Ab iss <a href=\"http://codepen.io/navgurukul/pen/WRBRPL\">example</a> ko dekho aur isme flex-wrap ka use kar kar dekho kya hota hai. ",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Ab hum inn properties ka use kar kar yeh <a href=\"http://codepen.io/navgurukul/full/ggJrpY/\">assignment.</a> Aur yeh <a href=\"http://codepen.io/navgurukul/full/PWvmQZ/\">assignment</a> karenge.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            }
+        ]
+    },
+    {
+        "id": "7030",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "flex-wrap",
+        "slug": "css_json__flex-wrap_json",
+        "sequence_num": 1000,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/flex-wrap.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "flex-wrap: Container Property"
+            },
+            {
+                "component": "header",
+                "variant": 2,
+                "value": "nowrap | wrap | wrap-reverse"
+            },
+            {
+                "component": "text",
+                "value": "By default yaani pehle se flex items ek hi row mein fit honi ki koshish karti hai. Chahe ek row mein fit honi ki jagah na ho.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Aisa isliye hota hai kyunki by defautl <b>flex-wrap nowrap</b> hota hai. Nowrap yaani ki <b>\"ghoom kar agli line mein mat aao\".</b>",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Ab iss <a href=\"http://codepen.io/navgurukul/pen/WRBRPL\">example</a> ko dekho aur isme flex-wrap ka use kar kar dekho kya hota hai. ",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Ab hum inn properties ka use kar kar yeh <a href=\"http://codepen.io/navgurukul/full/ggJrpY/\">assignment.</a> Aur yeh <a href=\"http://codepen.io/navgurukul/full/PWvmQZ/\">assignment</a> karenge.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            }
+        ]
+    },
+    {
+        "id": "7037",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "flex-grow",
+        "slug": "css_json__flex-grow_json",
+        "sequence_num": 1100,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/flex-grow.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "flex-grow: Item Property"
+            },
+            {
+                "component": "header",
+                "variant": 2,
+                "value": "Usage: <b>flex-grow: \\<number></b>"
+            },
+            {
+                "component": "text",
+                "value": "Yeh property batati hai ki kiss hisab se container ke andar ki jagah items mein batengi.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "By default yaani ki pehle se iski value <b>0</b> hoti hai.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Jaise, agar container ki width <b>1200px</b> hai. Aur uss container ke andar 4 items hai. Agar aap inn 4 items ko <b>width</b> nhi dete aur inka <b>flex-grow:1</b> set kar dete ho to her item <b>300px</b> jagah legi. Iska matlab 1200 px 4 items mein bat jayega. Iss <a href=\"http://codepen.io/navgurukul/pen/ZLgppd\">example</a> ko dekho aur samjho.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Magar agar hum kisi item ko pehle se width de dete hai. Jaise iss <a href=\"http://codepen.io/navgurukul/pen/egqdPp\">example</a> <b>item3</b> ki width <b>200px</b> hai aur baaki sab item ki <b>0</b>. Tab pehle item3 <b>200px</b> width lega. Uske baad <b>1000px(1200-200)</b> 4 items mein distribute hoga. Yaani ki her item ko <b>250 px(1000/4)</b> width milegi. Aur item3 ko <b>450px(250+200)</b> width milegi. ",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Socho aapke container mein 3 items hai. Aur aap chahte hai ki pehli item ki width dusri aur teesri item ke mukable double ho. Tab aap pehli item ka flex-grow:2 set karoge aur baaki items ka flex-grow:1. Iss <a href=\"http://codepen.io/navgurukul/pen/qReqZp\">example</a> ko dekho aur samjho.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Ab aap yeh <a href=\"http://codepen.io/navgurukul/full/KaLWvw/\">assignment</a> karne ke liye ready ho ;)",
+                "decoration": {
+                    "type": "bullet"
+                }
+            }
+        ]
+    },
+    {
+        "id": "7037",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "flex-grow",
+        "slug": "css_json__flex-grow_json",
+        "sequence_num": 1100,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/flex-grow.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "flex-grow: Item Property"
+            },
+            {
+                "component": "header",
+                "variant": 2,
+                "value": "Usage: <b>flex-grow: \\<number></b>"
+            },
+            {
+                "component": "text",
+                "value": "Yeh property batati hai ki kiss hisab se container ke andar ki jagah items mein batengi.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "By default yaani ki pehle se iski value <b>0</b> hoti hai.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Jaise, agar container ki width <b>1200px</b> hai. Aur uss container ke andar 4 items hai. Agar aap inn 4 items ko <b>width</b> nhi dete aur inka <b>flex-grow:1</b> set kar dete ho to her item <b>300px</b> jagah legi. Iska matlab 1200 px 4 items mein bat jayega. Iss <a href=\"http://codepen.io/navgurukul/pen/ZLgppd\">example</a> ko dekho aur samjho.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Magar agar hum kisi item ko pehle se width de dete hai. Jaise iss <a href=\"http://codepen.io/navgurukul/pen/egqdPp\">example</a> <b>item3</b> ki width <b>200px</b> hai aur baaki sab item ki <b>0</b>. Tab pehle item3 <b>200px</b> width lega. Uske baad <b>1000px(1200-200)</b> 4 items mein distribute hoga. Yaani ki her item ko <b>250 px(1000/4)</b> width milegi. Aur item3 ko <b>450px(250+200)</b> width milegi. ",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Socho aapke container mein 3 items hai. Aur aap chahte hai ki pehli item ki width dusri aur teesri item ke mukable double ho. Tab aap pehli item ka flex-grow:2 set karoge aur baaki items ka flex-grow:1. Iss <a href=\"http://codepen.io/navgurukul/pen/qReqZp\">example</a> ko dekho aur samjho.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Ab aap yeh <a href=\"http://codepen.io/navgurukul/full/KaLWvw/\">assignment</a> karne ke liye ready ho ;)",
+                "decoration": {
+                    "type": "bullet"
+                }
+            }
+        ]
+    },
+    {
+        "id": "7039",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "align-self",
+        "slug": "css_json__align-self_json",
+        "sequence_num": 1200,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/align-self.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "align-self: Item Property"
+            },
+            {
+                "component": "header",
+                "variant": 2,
+                "value": "auto | flex-start | flex-end | center | baseline | stretch"
+            },
+            {
+                "component": "text",
+                "value": "Yeh property <b>align-items</b> ki tarah hai. Magar yeh flex-item par lagti hai. ",
+                "decoration": {
+                    "type": "number",
+                    "value": null
+                }
+            },
+            {
+                "component": "text",
+                "value": "Isse hum yeh set karte hai ki flex-container ke andar ek flex-item kiss jagah par aayegi. ",
+                "decoration": {
+                    "type": "number",
+                    "value": null
+                }
+            },
+            {
+                "component": "text",
+                "value": "Yeh <a href=\"http://codepen.io/navgurukul/pen/ygmVQb\">example</a> dekho aur item ki css mein upar de gayi values daal kar dekho ki kya hota hai.",
+                "decoration": {
+                    "type": "number",
+                    "value": null
+                }
+            }
+        ]
+    },
+    {
+        "id": "7039",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "align-self",
+        "slug": "css_json__align-self_json",
+        "sequence_num": 1200,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/align-self.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "align-self: Item Property"
+            },
+            {
+                "component": "header",
+                "variant": 2,
+                "value": "auto | flex-start | flex-end | center | baseline | stretch"
+            },
+            {
+                "component": "text",
+                "value": "Yeh property <b>align-items</b> ki tarah hai. Magar yeh flex-item par lagti hai. ",
+                "decoration": {
+                    "type": "number",
+                    "value": null
+                }
+            },
+            {
+                "component": "text",
+                "value": "Isse hum yeh set karte hai ki flex-container ke andar ek flex-item kiss jagah par aayegi. ",
+                "decoration": {
+                    "type": "number",
+                    "value": null
+                }
+            },
+            {
+                "component": "text",
+                "value": "Yeh <a href=\"http://codepen.io/navgurukul/pen/ygmVQb\">example</a> dekho aur item ki css mein upar de gayi values daal kar dekho ki kya hota hai.",
+                "decoration": {
+                    "type": "number",
+                    "value": null
+                }
+            }
+        ]
+    },
+    {
+        "id": "7044",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "flexboxfroggy",
+        "slug": "css_json__flexboxfroggy_json",
+        "sequence_num": 1300,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/flexboxfroggy.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "CSS3 Flexbox - Let's play a game"
+            },
+            {
+                "component": "text",
+                "value": "Game khelo aur 15 level tak iss ko finish karo <a href=\"http://flexboxfroggy.com\">http://flexboxfroggy.com.</a> Iss game ko khel kar aap seekh sakte hai ki flex kaise use karte hai.",
+                "decoration": {
+                    "type": "number",
+                    "value": null
+                }
+            },
+            {
+                "component": "text",
+                "value": "Game ko game ki tarah nahi khelna hai, seekhne ke liye khelna hai. Yeh game se aap ne jin properties ke baarein mei abhi padha hai, unhe sahi se use karna seekh sakte hai. ",
+                "decoration": {
+                    "type": "number",
+                    "value": null
+                }
+            },
+            {
+                "component": "text",
+                "value": "Isliye dhyaan rakhe, ki stage clear karne se jyada stage ko samajhna jyada important hai.",
+                "decoration": {
+                    "type": "number",
+                    "value": null
+                }
+            },
+            {
+                "component": "header",
+                "variant": 2,
+                "value": "BONUS Exercise"
+            },
+            {
+                "component": "text",
+                "value": "Jo aap Game khel rahe hai, aise hi HTML mei boxes banakar flex se move karne ki koshish karo.",
+                "decoration": {
+                    "type": "number",
+                    "value": null
+                }
+            }
+        ]
+    },
+    {
+        "id": "7044",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "flexboxfroggy",
+        "slug": "css_json__flexboxfroggy_json",
+        "sequence_num": 1300,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/flexboxfroggy.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "CSS3 Flexbox - Let's play a game"
+            },
+            {
+                "component": "text",
+                "value": "Game khelo aur 15 level tak iss ko finish karo <a href=\"http://flexboxfroggy.com\">http://flexboxfroggy.com.</a> Iss game ko khel kar aap seekh sakte hai ki flex kaise use karte hai.",
+                "decoration": {
+                    "type": "number",
+                    "value": null
+                }
+            },
+            {
+                "component": "text",
+                "value": "Game ko game ki tarah nahi khelna hai, seekhne ke liye khelna hai. Yeh game se aap ne jin properties ke baarein mei abhi padha hai, unhe sahi se use karna seekh sakte hai. ",
+                "decoration": {
+                    "type": "number",
+                    "value": null
+                }
+            },
+            {
+                "component": "text",
+                "value": "Isliye dhyaan rakhe, ki stage clear karne se jyada stage ko samajhna jyada important hai.",
+                "decoration": {
+                    "type": "number",
+                    "value": null
+                }
+            },
+            {
+                "component": "header",
+                "variant": 2,
+                "value": "BONUS Exercise"
+            },
+            {
+                "component": "text",
+                "value": "Jo aap Game khel rahe hai, aise hi HTML mei boxes banakar flex se move karne ki koshish karo.",
+                "decoration": {
+                    "type": "number",
+                    "value": null
+                }
+            }
+        ]
+    },
+    {
+        "id": "7036",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "css-flexbox",
+        "slug": "css_json__css-flexbox_json",
+        "sequence_num": 1400,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/css-flexbox.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "CSS3 Flexbox"
+            },
+            {
+                "component": "text",
+                "value": "CSS3 ke bare mei padho aur samjho ki CSS, CSS3 se kaise different hain. Yeh difference apne facilitator ko slack par batao. Isse padhne ke baad, apko CSS Classes ke bare mein padna hai.  Aap iske baare mein <a href=\"http://www.w3schools.com/cssref/sel_class.asp\">iss link</a> se padhe. Ab fir se aapko padhne ke baad jo samajh aaya usse slack par apne facilitator ko bhejo.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Finally, Flexbox ke bare mei <a href=\"https://css-tricks.com/snippets/css/a-guide-to-flexbox/\">iss</a> link se padho. Saare examples ko groups mei kar kar, acche se samjho aur uske baad dekho ki Flexbox kam kaise karta hain.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Ab <a href=\"https://abhishekgupta92.github.io/equality6\">iss assignment</a> ko flex ka use kar kar karo. Yeh flex se karne ke liye yeh dekho ki iss page mei teen main flex container ki jaroorat padegi:"
+            },
+            {
+                "component": "text",
+                "value": "Header mei jo links hai",
+                "decoration": {
+                    "type": "number",
+                    "value": 1
+                }
+            },
+            {
+                "component": "text",
+                "value": "Main content",
+                "decoration": {
+                    "type": "number",
+                    "value": 2
+                }
+            },
+            {
+                "component": "text",
+                "value": "Ismei do flex items hai jo columns ki tarah dikh rahe hai",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Footer mei jo links hai",
+                "decoration": {
+                    "type": "number",
+                    "value": 3
+                }
+            },
+            {
+                "component": "text",
+                "value": "Ek ek karke teeno hisso ko flex se banane ki koshish karo, aur baaki cheezein bina flex ke bhi ho jayengi."
+            },
+            {
+                "component": "text",
+                "value": "<i>Assignment karne se pehle, yeh concepts padho aur samjho:</i>"
+            },
+            {
+                "component": "text",
+                "value": "Classes",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Flexbox",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Justify Content (space-between, center)",
+                "decoration": {
+                    "type": "bullet"
+                }
+            }
+        ]
+    },
+    {
+        "id": "7036",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "css-flexbox",
+        "slug": "css_json__css-flexbox_json",
+        "sequence_num": 1400,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/css-flexbox.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "CSS3 Flexbox"
+            },
+            {
+                "component": "text",
+                "value": "CSS3 ke bare mei padho aur samjho ki CSS, CSS3 se kaise different hain. Yeh difference apne facilitator ko slack par batao. Isse padhne ke baad, apko CSS Classes ke bare mein padna hai.  Aap iske baare mein <a href=\"http://www.w3schools.com/cssref/sel_class.asp\">iss link</a> se padhe. Ab fir se aapko padhne ke baad jo samajh aaya usse slack par apne facilitator ko bhejo.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Finally, Flexbox ke bare mei <a href=\"https://css-tricks.com/snippets/css/a-guide-to-flexbox/\">iss</a> link se padho. Saare examples ko groups mei kar kar, acche se samjho aur uske baad dekho ki Flexbox kam kaise karta hain.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Ab <a href=\"https://abhishekgupta92.github.io/equality6\">iss assignment</a> ko flex ka use kar kar karo. Yeh flex se karne ke liye yeh dekho ki iss page mei teen main flex container ki jaroorat padegi:"
+            },
+            {
+                "component": "text",
+                "value": "Header mei jo links hai",
+                "decoration": {
+                    "type": "number",
+                    "value": 1
+                }
+            },
+            {
+                "component": "text",
+                "value": "Main content",
+                "decoration": {
+                    "type": "number",
+                    "value": 2
+                }
+            },
+            {
+                "component": "text",
+                "value": "Ismei do flex items hai jo columns ki tarah dikh rahe hai",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Footer mei jo links hai",
+                "decoration": {
+                    "type": "number",
+                    "value": 3
+                }
+            },
+            {
+                "component": "text",
+                "value": "Ek ek karke teeno hisso ko flex se banane ki koshish karo, aur baaki cheezein bina flex ke bhi ho jayengi."
+            },
+            {
+                "component": "text",
+                "value": "<i>Assignment karne se pehle, yeh concepts padho aur samjho:</i>"
+            },
+            {
+                "component": "text",
+                "value": "Classes",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Flexbox",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Justify Content (space-between, center)",
+                "decoration": {
+                    "type": "bullet"
+                }
+            }
+        ]
+    },
+    {
+        "id": "7035",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "css3-forms",
+        "slug": "css_json__css3-forms_json",
+        "sequence_num": 1500,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/css3-forms.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "CSS3 Forms"
+            },
+            {
+                "component": "text",
+                "value": "App iss exercise se sikhoge ki HTML forms kaise banate hain. <a href=\"http://www.w3schools.com/html/html_forms.asp\">Isse</a> aur <a href=\"http://htmldog.com/guides/html/beginner/forms/\">isse</a> padho. Aapne jo pichli assignment mei padha hai uske base par apna code banaiye. Aapko form ka link <a href=\"https://abhishekgupta92.github.io/equality7/contact.html\">yahan</a> se milega."
+            },
+            {
+                "component": "text",
+                "value": "Kuch cheezein jo aapko karni hain:  "
+            },
+            {
+                "component": "text",
+                "value": "Ek \"Contact us\" ka link sabhi pages mein daaliye",
+                "decoration": {
+                    "type": "number",
+                    "value": null
+                }
+            },
+            {
+                "component": "header",
+                "variant": 4,
+                "value": "In sabhi pages mei link ko aise update kare:"
+            },
+            {
+                "component": "text",
+                "value": "Home - index.html",
+                "decoration": {
+                    "type": "number",
+                    "value": null
+                }
+            },
+            {
+                "component": "text",
+                "value": "Kindness - kindness.html",
+                "decoration": {
+                    "type": "number",
+                    "value": null
+                }
+            },
+            {
+                "component": "text",
+                "value": "Activism - #",
+                "decoration": {
+                    "type": "number",
+                    "value": null
+                }
+            },
+            {
+                "component": "text",
+                "value": "Empathy - #",
+                "decoration": {
+                    "type": "number",
+                    "value": null
+                }
+            },
+            {
+                "component": "text",
+                "value": "Contact Us - contact.html",
+                "decoration": {
+                    "type": "number",
+                    "value": null
+                }
+            },
+            {
+                "component": "header",
+                "variant": 2,
+                "value": "BONUS"
+            },
+            {
+                "component": "text",
+                "value": "Form ke ander CSS use karke thoda improve karne ki koshish karo."
+            },
+            {
+                "component": "text",
+                "value": "<i>Assignment karne se pehle, yeh concepts padho aur samjho:</i>"
+            },
+            {
+                "component": "text",
+                "value": "Forms in HTML - <a href=\"http://www.html-5-tutorial.com/form-element.php\">en</a>",
+                "decoration": {
+                    "type": "number",
+                    "value": null
+                }
+            }
+        ]
+    },
+    {
+        "id": "7035",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "css3-forms",
+        "slug": "css_json__css3-forms_json",
+        "sequence_num": 1500,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/css3-forms.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "CSS3 Forms"
+            },
+            {
+                "component": "text",
+                "value": "App iss exercise se sikhoge ki HTML forms kaise banate hain. <a href=\"http://www.w3schools.com/html/html_forms.asp\">Isse</a> aur <a href=\"http://htmldog.com/guides/html/beginner/forms/\">isse</a> padho. Aapne jo pichli assignment mei padha hai uske base par apna code banaiye. Aapko form ka link <a href=\"https://abhishekgupta92.github.io/equality7/contact.html\">yahan</a> se milega."
+            },
+            {
+                "component": "text",
+                "value": "Kuch cheezein jo aapko karni hain:  "
+            },
+            {
+                "component": "text",
+                "value": "Ek \"Contact us\" ka link sabhi pages mein daaliye",
+                "decoration": {
+                    "type": "number",
+                    "value": null
+                }
+            },
+            {
+                "component": "header",
+                "variant": 4,
+                "value": "In sabhi pages mei link ko aise update kare:"
+            },
+            {
+                "component": "text",
+                "value": "Home - index.html",
+                "decoration": {
+                    "type": "number",
+                    "value": null
+                }
+            },
+            {
+                "component": "text",
+                "value": "Kindness - kindness.html",
+                "decoration": {
+                    "type": "number",
+                    "value": null
+                }
+            },
+            {
+                "component": "text",
+                "value": "Activism - #",
+                "decoration": {
+                    "type": "number",
+                    "value": null
+                }
+            },
+            {
+                "component": "text",
+                "value": "Empathy - #",
+                "decoration": {
+                    "type": "number",
+                    "value": null
+                }
+            },
+            {
+                "component": "text",
+                "value": "Contact Us - contact.html",
+                "decoration": {
+                    "type": "number",
+                    "value": null
+                }
+            },
+            {
+                "component": "header",
+                "variant": 2,
+                "value": "BONUS"
+            },
+            {
+                "component": "text",
+                "value": "Form ke ander CSS use karke thoda improve karne ki koshish karo."
+            },
+            {
+                "component": "text",
+                "value": "<i>Assignment karne se pehle, yeh concepts padho aur samjho:</i>"
+            },
+            {
+                "component": "text",
+                "value": "Forms in HTML - <a href=\"http://www.html-5-tutorial.com/form-element.php\">en</a>",
+                "decoration": {
+                    "type": "number",
+                    "value": null
+                }
+            }
+        ]
+    },
+    {
+        "id": "7038",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "flex-again",
+        "slug": "css_json__flex-again_json",
+        "sequence_num": 1600,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/flex-again.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "It's me - Flex Again!"
+            },
+            {
+                "component": "text",
+                "value": "Ab hum phir se Flex padhenge :). Apko flex ka use karke ek <a href=\"https://abhishekgupta92.github.io/equality8/activism.html\">aisa</a> layout banana hai. Aap iss assignment mein Activism page par kaam karne wale hai.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "<i>Assignment karne se pehle, yeh concepts padho aur samjho:</i>"
+            },
+            {
+                "component": "text",
+                "value": "Justify-content",
+                "decoration": {
+                    "type": "number",
+                    "value": null
+                }
+            },
+            {
+                "component": "text",
+                "value": "Align-self",
+                "decoration": {
+                    "type": "number",
+                    "value": null
+                }
+            },
+            {
+                "component": "text",
+                "value": "Text-align",
+                "decoration": {
+                    "type": "number",
+                    "value": null
+                }
+            }
+        ]
+    },
+    {
+        "id": "7038",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "flex-again",
+        "slug": "css_json__flex-again_json",
+        "sequence_num": 1600,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/flex-again.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "It's me - Flex Again!"
+            },
+            {
+                "component": "text",
+                "value": "Ab hum phir se Flex padhenge :). Apko flex ka use karke ek <a href=\"https://abhishekgupta92.github.io/equality8/activism.html\">aisa</a> layout banana hai. Aap iss assignment mein Activism page par kaam karne wale hai.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "<i>Assignment karne se pehle, yeh concepts padho aur samjho:</i>"
+            },
+            {
+                "component": "text",
+                "value": "Justify-content",
+                "decoration": {
+                    "type": "number",
+                    "value": null
+                }
+            },
+            {
+                "component": "text",
+                "value": "Align-self",
+                "decoration": {
+                    "type": "number",
+                    "value": null
+                }
+            },
+            {
+                "component": "text",
+                "value": "Text-align",
+                "decoration": {
+                    "type": "number",
+                    "value": null
+                }
+            }
+        ]
+    },
+    {
+        "id": "7047",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "header-flex",
+        "slug": "css_json__header-flex_json",
+        "sequence_num": 1700,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/header-flex.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "Header using Flex"
+            },
+            {
+                "component": "text",
+                "value": "Aayie thoda aur flex seekhte hai :) Flex ka use kare top menu header ko change karne\nke liye jaise iss <a href=\"http://abhishekgupta92.github.io/equality9\">exercise</a> main kiya gaya hai."
+            },
+            {
+                "component": "text",
+                "value": "<i>Dhyaan rakhe:</i>"
+            },
+            {
+                "component": "text",
+                "value": "Navgurukul ka logo \"index.html\" ko link karta hai.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Page ka naam h2 tag ke saath center mei likha hua hai.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            }
+        ]
+    },
+    {
+        "id": "7047",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "header-flex",
+        "slug": "css_json__header-flex_json",
+        "sequence_num": 1700,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/header-flex.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "Header using Flex"
+            },
+            {
+                "component": "text",
+                "value": "Aayie thoda aur flex seekhte hai :) Flex ka use kare top menu header ko change karne\nke liye jaise iss <a href=\"http://abhishekgupta92.github.io/equality9\">exercise</a> main kiya gaya hai."
+            },
+            {
+                "component": "text",
+                "value": "<i>Dhyaan rakhe:</i>"
+            },
+            {
+                "component": "text",
+                "value": "Navgurukul ka logo \"index.html\" ko link karta hai.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Page ka naam h2 tag ke saath center mei likha hua hai.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            }
+        ]
+    },
+    {
+        "id": "7048",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "sticky-header",
+        "slug": "css_json__sticky-header_json",
+        "sequence_num": 1800,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/sticky-header.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "Part XIII - Sticky Header"
+            },
+            {
+                "component": "text",
+                "value": "Iss <a href=\"http://abhishekgupta92.github.io/equality10\">exercise</a> mein,  hum ek facebook par jaisa header hota hai, uski tarah kaam karne wala\nek header banayenge."
+            },
+            {
+                "component": "text",
+                "value": "Header yaani jo head (yaani top) par hota hai. Aapko ye dhyan dena hain ki jab hum neeche jaaye (yaani ki page ko scroll kare) <span style=\"\">tab</span> apka header hilna<br>nahi chahiye. Dhyaan de, facebook ka bhi header aise hi hai. Aise header ko <b>sticky header</b> bolte hai kyuki, yeh header top se stick kar jaata hai."
+            },
+            {
+                "component": "text",
+                "value": "<i>Assignment karne se pehle, yeh concepts padho aur samjho:</i>"
+            },
+            {
+                "component": "text",
+                "value": "Position (static, fixed, absolute) <a href=\"http://www.w3schools.com/css/css_positioning.asp\">en</a>, hi",
+                "decoration": {
+                    "type": "number",
+                    "value": null
+                }
+            }
+        ]
+    },
+    {
+        "id": "7048",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "sticky-header",
+        "slug": "css_json__sticky-header_json",
+        "sequence_num": 1800,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/sticky-header.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "Part XIII - Sticky Header"
+            },
+            {
+                "component": "text",
+                "value": "Iss <a href=\"http://abhishekgupta92.github.io/equality10\">exercise</a> mein,  hum ek facebook par jaisa header hota hai, uski tarah kaam karne wala\nek header banayenge."
+            },
+            {
+                "component": "text",
+                "value": "Header yaani jo head (yaani top) par hota hai. Aapko ye dhyan dena hain ki jab hum neeche jaaye (yaani ki page ko scroll kare) <span style=\"\">tab</span> apka header hilna<br>nahi chahiye. Dhyaan de, facebook ka bhi header aise hi hai. Aise header ko <b>sticky header</b> bolte hai kyuki, yeh header top se stick kar jaata hai."
+            },
+            {
+                "component": "text",
+                "value": "<i>Assignment karne se pehle, yeh concepts padho aur samjho:</i>"
+            },
+            {
+                "component": "text",
+                "value": "Position (static, fixed, absolute) <a href=\"http://www.w3schools.com/css/css_positioning.asp\">en</a>, hi",
+                "decoration": {
+                    "type": "number",
+                    "value": null
+                }
+            }
+        ]
+    },
+    {
+        "id": "7042",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "sticky-footer",
+        "slug": "css_json__sticky-footer_json",
+        "sequence_num": 1900,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/sticky-footer.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "Part XIV - Sticky Footer"
+            },
+            {
+                "component": "text",
+                "value": "Iss <a href=\"http://abhishekgupta92.github.io/equality11\">exercise</a> mein, hum ek \"sticky footer\" banayenge. Sticky footer bottom mein stick\nyaani chipak jaata hai. Aur page ke contents ko scroll karte time bhi wo nahi hilta."
+            },
+            {
+                "component": "text",
+                "value": "<i>Assignment karne se pehle, yeh concepts padho aur samjho:</i>"
+            },
+            {
+                "component": "text",
+                "value": "Position (static, fixed, absolute) <a href=\"http://www.w3schools.com/css/css_positioning.asp\">en</a>, hi",
+                "decoration": {
+                    "type": "bullet"
+                }
+            }
+        ]
+    },
+    {
+        "id": "7042",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "sticky-footer",
+        "slug": "css_json__sticky-footer_json",
+        "sequence_num": 1900,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/sticky-footer.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "Part XIV - Sticky Footer"
+            },
+            {
+                "component": "text",
+                "value": "Iss <a href=\"http://abhishekgupta92.github.io/equality11\">exercise</a> mein, hum ek \"sticky footer\" banayenge. Sticky footer bottom mein stick\nyaani chipak jaata hai. Aur page ke contents ko scroll karte time bhi wo nahi hilta."
+            },
+            {
+                "component": "text",
+                "value": "<i>Assignment karne se pehle, yeh concepts padho aur samjho:</i>"
+            },
+            {
+                "component": "text",
+                "value": "Position (static, fixed, absolute) <a href=\"http://www.w3schools.com/css/css_positioning.asp\">en</a>, hi",
+                "decoration": {
+                    "type": "bullet"
+                }
+            }
+        ]
+    },
+    {
+        "id": "7046",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "radio-buttons",
+        "slug": "css_json__radio-buttons_json",
+        "sequence_num": 2000,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/radio-buttons.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "Part XV - Radio Buttons"
+            },
+            {
+                "component": "text",
+                "value": "Iss <a href=\"http://abhishekgupta92.github.io/equality12\">exercise</a> mein, hum Empathy page add karenge. Aap ek webpage design kijiye jaisa example me diya gaya hai."
+            },
+            {
+                "component": "text",
+                "value": "<i>Assignment karne se pehle, yeh concepts padho aur samjho:</i>"
+            },
+            {
+                "component": "text",
+                "value": "Radio Button <a href=\"http://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_radio\">en</a>, hi",
+                "decoration": {
+                    "type": "number",
+                    "value": null
+                }
+            }
+        ]
+    },
+    {
+        "id": "7046",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "radio-buttons",
+        "slug": "css_json__radio-buttons_json",
+        "sequence_num": 2000,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/radio-buttons.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "Part XV - Radio Buttons"
+            },
+            {
+                "component": "text",
+                "value": "Iss <a href=\"http://abhishekgupta92.github.io/equality12\">exercise</a> mein, hum Empathy page add karenge. Aap ek webpage design kijiye jaisa example me diya gaya hai."
+            },
+            {
+                "component": "text",
+                "value": "<i>Assignment karne se pehle, yeh concepts padho aur samjho:</i>"
+            },
+            {
+                "component": "text",
+                "value": "Radio Button <a href=\"http://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_radio\">en</a>, hi",
+                "decoration": {
+                    "type": "number",
+                    "value": null
+                }
+            }
+        ]
+    },
+    {
+        "id": "7041",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "whatsapp",
+        "slug": "css_json__whatsapp_json",
+        "sequence_num": 2100,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/whatsapp.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "PROJECT - Whatsapp.com"
+            },
+            {
+                "component": "text",
+                "value": "Congrats, aapne HTML &amp; CSS ka pehla phase complete kar liya hai. Aap thoda time apne <span style=\"\">code</span> ko <b>revise</b> karne mei spend karein, jiske turant baad aap yeh project shuru kar sakte hai."
+            },
+            {
+                "component": "text",
+                "value": "Iss project mei hum whatsapp ka landing page banayenge, yaani hum <a href=\"http://whatsapp.com\">whatsapp.com</a> kholne par jo page aata hai usko HTML &amp; CSS use karke dobara banayenge.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Agar aap <a href=\"http://whatsapp.com\">whatsapp.com</a> khologe toh, aap dekhne ki koshish karo ki kaise <b>flex</b> use karke aap whatsapp ka <b>layout</b> bana sakte hai.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Aapko apna yeh project banane ke baad apne aas paas ke logo ko dikha kar unse help leni hai, ki aap apne page ko kaise exactly <a href=\"http://whatsapp.com\">whatsapp.com</a> jaisa bana sakte ho.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Jab aapka page ek dum <a href=\"http://whatsapp.com\">whatsapp.com</a> jaisa dikhne lag jaye, toh aap apni assignment submit kar sakte ho. ",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Yeh code aap sambhaal kar rakhna, aage aapka <b>CV</b> yaani",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "<b>Curriculum Vitae</b> banate waqt kaafi kaam aayega."
+            }
+        ]
+    },
+    {
+        "id": "7041",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "whatsapp",
+        "slug": "css_json__whatsapp_json",
+        "sequence_num": 2100,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/whatsapp.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "PROJECT - Whatsapp.com"
+            },
+            {
+                "component": "text",
+                "value": "Congrats, aapne HTML &amp; CSS ka pehla phase complete kar liya hai. Aap thoda time apne <span style=\"\">code</span> ko <b>revise</b> karne mei spend karein, jiske turant baad aap yeh project shuru kar sakte hai."
+            },
+            {
+                "component": "text",
+                "value": "Iss project mei hum whatsapp ka landing page banayenge, yaani hum <a href=\"http://whatsapp.com\">whatsapp.com</a> kholne par jo page aata hai usko HTML &amp; CSS use karke dobara banayenge.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Agar aap <a href=\"http://whatsapp.com\">whatsapp.com</a> khologe toh, aap dekhne ki koshish karo ki kaise <b>flex</b> use karke aap whatsapp ka <b>layout</b> bana sakte hai.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Aapko apna yeh project banane ke baad apne aas paas ke logo ko dikha kar unse help leni hai, ki aap apne page ko kaise exactly <a href=\"http://whatsapp.com\">whatsapp.com</a> jaisa bana sakte ho.",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Jab aapka page ek dum <a href=\"http://whatsapp.com\">whatsapp.com</a> jaisa dikhne lag jaye, toh aap apni assignment submit kar sakte ho. ",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "Yeh code aap sambhaal kar rakhna, aage aapka <b>CV</b> yaani",
+                "decoration": {
+                    "type": "bullet"
+                }
+            },
+            {
+                "component": "text",
+                "value": "<b>Curriculum Vitae</b> banate waqt kaafi kaam aayega."
+            }
+        ]
+    },
+    {
+        "id": "7045",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "se-reverra",
+        "slug": "css_json__se-reverra_json",
+        "sequence_num": 2200,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/se-reverra.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "Se Reverra"
+            },
+            {
+                "component": "text",
+                "value": "Ab aapne HTML aur CSS ka Beginner course khatam kar liya hai. Ab aap apni pasand ki koi bhi ek website chun kar HTML aur CSS use kar kar bana sakte ho."
+            },
+            {
+                "component": "text",
+                "value": "Yeh website bana kar, aap aas paas sabko dikhao, aur unse suggestions lo ki aap kaise isse behtar bana sakte ho."
+            },
+            {
+                "component": "text",
+                "value": "Yeh <span style=\"\">code</span> aap sambhaal kar rakhna, aage aapka <b>CV</b> yaani <b>Curriculum Vitae</b> banate waqt kaafi kaam aayega."
+            },
+            {
+                "component": "text",
+                "value": "<i>Dhyaan rahe:</i>"
+            },
+            {
+                "component": "text",
+                "value": "Aap page jis website ka clone hai, bilkul uske jaisa dikhna chahiye. Issi tarah se aapki practice theek tarah se hogi.",
+                "decoration": {
+                    "type": "number",
+                    "value": null
+                }
+            }
+        ]
+    },
+    {
+        "id": "7045",
+        "parent_exercise_id": null,
+        "course_id": "227",
+        "name": "se-reverra",
+        "slug": "css_json__se-reverra_json",
+        "sequence_num": 2200,
+        "review_type": "manual",
+        "submission_type": null,
+        "github_link": "https://github.com/navgurukul/newton/tree/master/css_json/se-reverra.json",
+        "solution": null,
+        "content": [
+            {
+                "component": "header",
+                "variant": 1,
+                "value": "Se Reverra"
+            },
+            {
+                "component": "text",
+                "value": "Ab aapne HTML aur CSS ka Beginner course khatam kar liya hai. Ab aap apni pasand ki koi bhi ek website chun kar HTML aur CSS use kar kar bana sakte ho."
+            },
+            {
+                "component": "text",
+                "value": "Yeh website bana kar, aap aas paas sabko dikhao, aur unse suggestions lo ki aap kaise isse behtar bana sakte ho."
+            },
+            {
+                "component": "text",
+                "value": "Yeh <span style=\"\">code</span> aap sambhaal kar rakhna, aage aapka <b>CV</b> yaani <b>Curriculum Vitae</b> banate waqt kaafi kaam aayega."
+            },
+            {
+                "component": "text",
+                "value": "<i>Dhyaan rahe:</i>"
+            },
+            {
+                "component": "text",
+                "value": "Aap page jis website ka clone hai, bilkul uske jaisa dikhna chahiye. Issi tarah se aapki practice theek tarah se hogi.",
+                "decoration": {
+                    "type": "number",
+                    "value": null
+                }
+            }
+        ]
+    }
+]
